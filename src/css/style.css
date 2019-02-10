@@ -1,88 +1,141 @@
-body {
-  font-family: 'Montserrat', sans-serif; }
-
-.table, th, td {
-  border-bottom: 1px solid coral;
-  border-collapse: collapse;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center; }
-
-label {
-  margin-left: 0.5%; }
-
-th {
-  color: coral;
-  border: 1px solid coral; }
-
-.table {
+.header {
+  background-color: #ccc;
   width: 100%;
-  margin-top: 25px;
-  margin-bottom: 25px; }
+}
 
-.container {
-  padding: 10px;
-  border-radius: 10px; }
+.header--nav-logo {
+  display: inline;
+}
 
-.btn {
-  width: 8%;
-  padding: 0.5%;
-  margin-left: 1%;
-  margin-top: 2%;
-  border: 1px solid coral;
-  border-radius: 50px;
-  background-color: white;
-  font-size: 0.75rem;
-  display: inline-block; }
+.header--nav-logo-img {
+  width: 15%;
+  margin: 40px;
+}
 
-.der {
-  margin-left: 40%; }
-
-.btn:hover {
-  background-color: coral;
-  border: 1px solid coral;
-  color: white; }
-
-.name {
-  width: 20%;
-  padding: 0.5%;
-  font-size: 0.8rem;
-  border: 1px solid coral;
-  border-radius: 50px; }
-
-.amount {
-  width: 20%;
-  padding: 0.5%;
-  font-size: 0.8rem;
-  border: 1px solid coral;
-  border-radius: 50px; }
-
-.date {
-  width: 20%;
-  padding: 0.5%;
-  font-size: 0.8rem;
-  border: 1px solid coral;
-  border-radius: 50px; }
-
-.type {
-  width: 20%;
-  padding: 0.5%;
-  font-size: 0.8rem;
-  border: 1px solid coral;
-  border-radius: 50px;
-  background-color: white; }
-
-.efectivo {
-  border: 1px solid coral;
-  padding: 10px;
-  margin: 1%;
-  border-radius: 10px; }
-
-.total {
-  padding-left: 55%; }
-
-.numero {
+.header--nav-menu {
   float: right;
-  margin-right: 12%; }
+  margin-right: 30%;
+  margin-top: 65px;
+  width: 285px;
+}
+
+.header--nav-menu-menu {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.header--nav-menu-menu {
+  list-style: none;
+}
+
+.header--nav-menu-menu-option {
+  display: inline;
+  text-transform: uppercase;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.header--nav-menu-menu-option + .header--nav-menu-menu-option {
+  margin-left: 3%;
+}
+
+.header--nav-search-img {
+  width: 3%;
+}
+
+.content--title {
+  font-family: "Sacramento", cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+.content--sections {
+  margin-top: 200px;
+}
+
+.content--sections-about-me {
+  display: inline-block;
+}
+
+.content--sections-about-me-img {
+  border: 1px solid cadetblue;
+  border-radius: 50%;
+  margin-left: 100px;
+  height: 300px;
+  width: 300px;
+}
+
+.content--sections-about-me-title {
+  font-family: "Sacramento", cursive;
+  font-size: 45px;
+  margin-left: 125px;
+}
+
+.content--sections-works {
+  display: inline-block;
+}
+
+.content--sections-works-img {
+  border: 1px solid cadetblue;
+  border-radius: 50%;
+  margin-left: 100px;
+  height: 300px;
+  width: 300px;
+}
+
+.content--sections-works-title {
+  font-family: "Sacramento", cursive;
+  font-size: 45px;
+  margin-left: 175px;
+}
+
+.content--sections-git-hub {
+  display: inline-block;
+}
+
+.content--sections-git-hub-img {
+  border: 1px solid cadetblue;
+  border-radius: 50%;
+  margin-left: 100px;
+  height: 300px;
+  width: 300px;
+}
+
+.content--sections-git-hub-title {
+  font-family: "Sacramento", cursive;
+  font-size: 45px;
+  margin-left: 175px;
+}
+
+.footer {
+  background-color: #ccc;
+  margin: 0;
+  margin-top: 300px;
+}
+
+.footer--content {
+  display: inline-block;
+}
+
+.footer--content-info {
+  font-size: 18px;
+  margin: 0;
+  padding: 15px;
+}
+
+.footer--social {
+  display: inline;
+  float: r;
+}
+
+.footer--social-media {
+  width: 30px;
+  padding-bottom: 50px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

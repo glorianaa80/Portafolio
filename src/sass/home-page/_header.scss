@@ -1,0 +1,44 @@
+.header {
+    background-color: #ccc;
+    width: 100%;
+}
+
+.header--nav-logo{
+    display: inline;
+}
+
+.header--nav-logo-img{
+    width: 15%;    
+    margin: 40px;
+}
+
+.header--nav-menu{
+    float: right;
+    margin-right: 30%;
+    margin-top: 65px;
+    width: 285px;
+}
+
+.header--nav-menu-menu {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.header--nav-menu-menu {
+    list-style: none;
+}
+
+.header--nav-menu-menu-option {
+    display: inline;
+    text-transform: uppercase;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.header--nav-menu-menu-option + .header--nav-menu-menu-option {
+    margin-left: 3%;
+}
+
+.header--nav-search-img {
+    width:3%;
+}
