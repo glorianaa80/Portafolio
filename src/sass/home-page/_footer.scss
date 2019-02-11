@@ -1,32 +1,32 @@
 .footer{
-    background-color: #ccc;
-    margin: 0;
+  background-color: #ccc;
+  margin: 0;
 }
 
-.footer--content{
-    margin: 0;
-    padding-bottom: 30px;
+.footer--content {
+  margin: 0;
+  padding-bottom: 30px;
 }
 
-.footer--contact-info{
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 14px;
-    margin: 0;
-    padding: 20px 30px;
-    text-align: center;
+.footer--contact-info {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 20px 30px;
+  text-align: center;
 }
 
-.footer--social{
-    display: inline;
-    margin-right: 200px;
-    margin-left: 44%;
+.footer--social {
+  display: inline;
+  margin-right: 200px;
+  margin-left: 44%;
 }
 
-.footer--social-media{
-    width: 50px;
-    padding-bottom: 50px;
+.footer--social-media {
+	width: 50px;
+  padding-bottom: 50px;
 }
 
-.footer--social-media + .footer--social-media{
-    margin-left: 30px;
+.footer--social-media + .footer--social-media {
+  margin-left: 30px;
 }

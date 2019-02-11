@@ -1,6 +1,6 @@
 .works{
   background-color: coral;
-  height: 900px;
+  height: 1200px;
   padding: 0;
   margin: 0;
   width: 50%;
@@ -14,32 +14,28 @@
   padding-top: 400px;
 }
 
-.works--img-folio{
-  border: 1px solid cadetblue;
-	border-radius: 50%;
-	margin-right: 240px;
-	height: 300px;
-	width: 300px;
+.works--img{
   float: right;
-  margin-top: -850px;
+  height: 1150px;
+  margin-top: -1180px;
+  overflow: scroll;
+  width: 45%;
 }
 
-.works--img-cuda{
-  border: 1px solid cadetblue;
-	border-radius: 50%;
-	margin-right: 240px;
-	height: 300px;
-	width: 300px;
-  float: right;
-  margin-top: -490px;
+.works--img::-webkit-scrollbar{
+  width: 7px;
 }
 
-.works--img-respon{
+.works--img::-webkit-scrollbar-thumb{
+  background-color:white;
+  border-radius: 5px;
+}
+
+.works--img-psd{
   border: 1px solid cadetblue;
 	border-radius: 50%;
-	margin-right: 240px;
-	height: 300px;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 50px;
 	width: 300px;
-  float: right;
-  margin-top: -130px;
 }
