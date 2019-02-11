@@ -1,27 +1,32 @@
 .footer{
     background-color: #ccc;
     margin: 0;
-    margin-top: 300px;
-    
 }
 
 .footer--content{
-    display: inline-block;
+    margin: 0;
+    padding-bottom: 30px;
 }
 
-.footer--content-info{
-    font-size: 18px;
+.footer--contact-info{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
     margin: 0;
-    padding: 15px;
+    padding: 20px 30px;
+    text-align: center;
 }
 
 .footer--social{
     display: inline;
-    float: right;
     margin-right: 200px;
+    margin-left: 44%;
 }
 
 .footer--social-media{
-    width: 30px;
+    width: 50px;
     padding-bottom: 50px;
+}
+
+.footer--social-media + .footer--social-media{
+    margin-left: 30px;
 }

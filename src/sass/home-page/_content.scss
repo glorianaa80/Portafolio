@@ -1,3 +1,6 @@
+.content{
+    margin-bottom: 300px;
+}
 .content--title {
     font-family: 'Sacramento', cursive;
     font-size: 70px;
@@ -9,13 +12,12 @@
 }
 
 .content--sections-about-me{
-    display: inline-block;
+    display: inline-block;margin-left: 20%;
 }
 
 .content--sections-about-me-img {
     border: 1px solid cadetblue;
     border-radius: 50%;
-    margin-left: 100px;
     height: 300px;
     width: 300px;
 }
@@ -23,7 +25,7 @@
 .content--sections-about-me-title {
     font-family: 'Sacramento', cursive;
     font-size: 45px;
-    margin-left: 125px; 
+    margin-left:50px; 
 }
 
 .content--sections-works {
@@ -41,7 +43,7 @@
 .content--sections-works-title{
     font-family: 'Sacramento', cursive;
     font-size: 45px;
-    margin-left: 175px; 
+    margin-left: 195px; 
 }
 
 .content--sections-git-hub{
@@ -59,5 +61,5 @@
 .content--sections-git-hub-title{
     font-family: 'Sacramento', cursive;
     font-size: 45px;
-    margin-left: 175px; 
+    margin-left: 195px; 
 }

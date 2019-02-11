@@ -15,8 +15,8 @@
 .header--nav-menu{
     float: right;
     margin-right: 30%;
-    margin-top: 65px;
-    width: 285px;
+    margin-top: 75px;
+    width: 350px;
 }
 
 .header--nav-menu-menu {
@@ -27,16 +27,19 @@
 
 .header--nav-menu-menu {
     list-style: none;
+
 }
 
 .header--nav-menu-menu-option {
     display: inline;
     text-transform: uppercase;
     font-family: 'Libre Franklin', sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
 .header--nav-menu-menu-option + .header--nav-menu-menu-option {
-    margin-left: 3%;
+    margin-left: 8%;
 }
 
 .header--nav-search-img {

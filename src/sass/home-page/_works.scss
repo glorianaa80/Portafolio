@@ -1,0 +1,45 @@
+.works{
+  background-color: coral;
+  height: 900px;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+.works--title{
+  font-family:  'Sacramento', cursive;
+  font-size: 100px;
+  margin: 0;
+  padding-left: 260px;
+  padding-top: 400px;
+}
+
+.works--img-folio{
+  border: 1px solid cadetblue;
+	border-radius: 50%;
+	margin-right: 240px;
+	height: 300px;
+	width: 300px;
+  float: right;
+  margin-top: -850px;
+}
+
+.works--img-cuda{
+  border: 1px solid cadetblue;
+	border-radius: 50%;
+	margin-right: 240px;
+	height: 300px;
+	width: 300px;
+  float: right;
+  margin-top: -490px;
+}
+
+.works--img-respon{
+  border: 1px solid cadetblue;
+	border-radius: 50%;
+	margin-right: 240px;
+	height: 300px;
+	width: 300px;
+  float: right;
+  margin-top: -130px;
+}
