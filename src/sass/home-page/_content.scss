@@ -1,69 +1,85 @@
-.content{
-    margin-bottom: 300px;
+.content {
+  margin-bottom: 300px;
 }
 
 .content--title {
-    font-family: 'Sacramento', cursive;
-    font-size: 70px;
-    text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  text-align: center;
 }
 
 
-
-.content--sections{
-    margin-top: 200px;
+.content--sections {
+  margin-top: 200px;
 }
 
-.content--sections-about-me{
-    display: inline-block;
-    margin-left: 20%;
+.content--sections-about-me {
+  display: inline-block;
+  margin-left: 7%;
+}
+
+.content--sections-about-me a:hover {
+	color: #ee9d12;
+	padding-left: 3px;
 }
 
 .content--sections-about-me-img {
-    border: 1px solid cadetblue;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
+	color: transparent;
+  border: 1px solid #ee9d12;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
 }
 
+
 .content--sections-about-me-title {
-    font-family: 'Sacramento', cursive;
-    font-size: 45px;
-    margin-left:50px; 
+  font-family: 'Sacramento', cursive;
+  font-size: 45px;
+  margin-left:50px; 
 }
 
 .content--sections-works {
-    display: inline-block;
+  display: inline-block;
+  margin-left: 15%;
+}
+
+.content--sections-works a:hover {
+	color: #20d38f;
+	padding-left: 3px;
 }
 
 .content--sections-works-img {
-    border: 1px solid cadetblue;
-    border-radius: 50%;
-    margin-left: 100px;
-    height: 300px;
-    width: 300px;
+  border: 1px solid #20d38f;
+  border-radius: 50%;
+  margin-left: 100px;
+  height: 300px;
+  width: 300px;
 }
 
 .content--sections-works-title{
-    font-family: 'Sacramento', cursive;
-    font-size: 45px;
-    margin-left: 195px; 
+  font-family: 'Sacramento', cursive;
+  font-size: 45px;
+  margin-left: 195px; 
 }
 
-.content--sections-git-hub{
-    display: inline-block;
+.content--sections-git-hub {
+  display: inline-block;
 }
 
+.content--sections-git-hub a:hover {
+	color: #fa8072;
+	padding-left: 3px;
+}
 .content--sections-git-hub-img {
-    border: 1px solid cadetblue;
-    border-radius: 50%;
-    margin-left: 100px;
-    height: 300px;
-    width: 300px;
+  border: 1px solid #fa8072;
+  border-radius: 50%;
+  margin-left: 100px;
+  height: 300px;
+  width: 300px;
 }
 
-.content--sections-git-hub-title{
-    font-family: 'Sacramento', cursive;
-    font-size: 45px;
-    margin-left: 195px; 
+.content--sections-git-hub-title {
+  font-family: 'Sacramento', cursive;
+  font-size: 45px;
+  margin-left: 195px; 
 }
