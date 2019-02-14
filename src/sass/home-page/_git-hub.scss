@@ -1,0 +1,32 @@
+.git-hub{
+  background-color: #147587;
+  width: 45%;
+  height: 1200px;
+}
+  
+.git-hub--title{
+  font-family:  'Sacramento', cursive;
+  font-size: 100px;
+  margin: 0;
+  padding-left: 220px;
+  padding-top: 400px;
+}
+  
+.git-hub--info{
+  float: right;
+  height: 1180px;
+  margin-top: -1180px;
+  margin-right: 50px;
+  overflow: scroll;
+  width: 50%;
+}
+  
+.git-hub--info::-webkit-scrollbar{
+  width: 7px;
+}
+  
+.git-hub--info::-webkit-scrollbar-thumb{
+	background-color:white; 
+	border-radius: 5px;
+}
+  
