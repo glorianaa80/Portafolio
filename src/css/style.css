@@ -7,20 +7,20 @@
 
 .header--nav-logo-img {
   width: 10%;
-  margin-top: 20px;
-  margin-left: 250px;
-  margin-bottom: 20px; }
+  margin-top: 2%;
+  margin-left: 16%;
+  margin-bottom: 2%; }
 
 .header--nav-menu {
   float: right;
-  margin-right: 15%;
-  margin-top: 95px;
-  width: 765px; }
+  margin-right: 10%;
+  margin-top: 5.7%;
+  width: 50%; }
 
 .header--nav-menu-menu {
   margin: 0;
   padding: 0;
-  font-size: 35px; }
+  font-size: 25px; }
 
 .header--nav-menu-menu {
   list-style: none; }
@@ -37,11 +37,11 @@ a, .header--nav-menu-menu-option {
   color: black; }
 
 .header--nav-menu-menu-option + .header--nav-menu-menu-option {
-  margin-left: 5%; }
+  margin-left: 15%; }
 
 .header--nav-menu-menu-option a:hover {
-  padding-bottom: 2px;
-  text-decoration: underline wavy #f37f2a; }
+  display: inline-block;
+  text-decoration: underline wavy #6ca500; }
 
 .header--nav-search-img {
   width: 3%; }
@@ -61,14 +61,18 @@ a, .header--nav-menu-menu-option {
 
 .content--sections {
   margin-top: 200px; }
+  .content--sections div {
+    transition: 0.25s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.32, 1.6); }
+  .content--sections div:hover {
+    transform: scale(1.2); }
 
 .content--sections-about-me {
   display: inline-block;
   margin-left: 7%; }
 
 .content--sections-about-me a:hover {
-  color: #008290;
-  padding-left: 3px; }
+  color: #6ca500; }
 
 .content--sections-about-me-img {
   color: transparent;
@@ -87,8 +91,7 @@ a, .header--nav-menu-menu-option {
   margin-left: 15%; }
 
 .content--sections-works a:hover {
-  color: #008290;
-  padding-left: 3px; }
+  color: #6ca500; }
 
 .content--sections-works-img {
   border: 1px solid #008290;
@@ -106,8 +109,7 @@ a, .header--nav-menu-menu-option {
   display: inline-block; }
 
 .content--sections-git-hub a:hover {
-  color: #008290;
-  padding-left: 3px; }
+  color: #6ca500; }
 
 .content--sections-git-hub-img {
   border: 1px solid #008290;
@@ -185,13 +187,13 @@ a, .header--nav-menu-menu-option {
   width: 50%; }
 
 .about-me--secction {
-  border: 2px solid #f37f2a;
+  border: 2px solid #6ca500;
   margin-top: 7%;
   margin-left: 28%;
   width: 50%; }
 
 .about-me--secction-title {
-  color: #f37f2a;
+  color: #6ca500;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 25px;
   padding: 0;
@@ -199,7 +201,7 @@ a, .header--nav-menu-menu-option {
 
 .about-me--secction-list {
   padding-left: 11%;
-  background-color: #f37f2a;
+  background-color: #6ca500;
   font-family: 'Libre Franklin', sans-serif;
   list-style: none;
   margin: 0; }
@@ -225,7 +227,7 @@ a, .header--nav-menu-menu-option {
   font-family: 'Libre Franklin', sans-serif; }
 
 .works {
-  background-color: #20d38f;
+  background-color: #008290;
   height: 1200px;
   padding: 0;
   margin: 0;
@@ -253,7 +255,7 @@ a, .header--nav-menu-menu-option {
   border-radius: 5px; }
 
 .works--img-psd {
-  border: 1px solid #20d38f;
+  border: 2px solid #6ca500;
   border-radius: 50%;
   height: 300px;
   margin-left: 200px;
@@ -261,7 +263,7 @@ a, .header--nav-menu-menu-option {
   width: 300px; }
 
 .git-hub {
-  background-color: #147587;
+  background-color: #008290;
   width: 45%;
   height: 1200px; }
 
@@ -288,7 +290,7 @@ a, .header--nav-menu-menu-option {
   border-radius: 5px; }
 
 .contact {
-  background-color: chocolate;
+  background-color: #6ca500;
   margin-bottom: 10%;
   margin-left: 25%;
   width: 50%; }

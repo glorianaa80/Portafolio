@@ -16,6 +16,13 @@
 
 .content--sections {
   margin-top: 200px;
+  div {
+    transition: 0.25s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.32, 1.6);
+  }
+  div:hover {
+    transform: scale(1.2);
+  }
 }
 
 .content--sections-about-me {
@@ -24,8 +31,7 @@
 }
 
 .content--sections-about-me a:hover {
-	color: #008290;
-	padding-left: 3px;
+	color: #6ca500;
 }
 
 .content--sections-about-me-img {
@@ -49,8 +55,7 @@
 }
 
 .content--sections-works a:hover {
-	color: #008290;
-	padding-left: 3px;
+	color: #6ca500;
 }
 
 .content--sections-works-img {
@@ -72,8 +77,7 @@
 }
 
 .content--sections-git-hub a:hover {
-	color: #008290;
-	padding-left: 3px;
+	color: #6ca500;
 }
 .content--sections-git-hub-img {
   border: 1px solid #008290;
