@@ -1,5 +1,6 @@
 .content {
-  margin-bottom: 300px;
+  margin-bottom: 5%;
+  text-align: center;
 }
 
 .content--title {
@@ -8,83 +9,46 @@
   text-align: center;
 }
 
-.content--subTitle{
+.content--subTitle {
   font-family: 'Sacramento', cursive;
   font-size: 40px;
   text-align: center;
 }
 
-.content--sections {
-  margin-top: 200px;
+.content-img {
+  padding-top: 5%;
+}
+.content--nav-menu {
+  margin-top: 5.7%;
+  text-align: center;
+  width: 100%;
 }
 
-.content--sections-about-me {
-  display: inline-block;
-  margin-left: 7%;
+.content--nav-menu-menu {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
 }
 
-.content--sections-about-me a:hover {
-	color: #008290;
-	padding-left: 3px;
+.content--nav-menu-menu {
+  list-style: none;
 }
 
-.content--sections-about-me-img {
-	color: transparent;
-  border: 1px solid #008290;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
+.content--nav-menu-menu-option { 
+  color: black;
+  display: block; 
+  font-family: 'Libre Franklin', sans-serif;
+  padding: 3%;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-
-.content--sections-about-me-title {
-  font-family: 'Sacramento', cursive;
-  font-size: 45px;
-  margin-left:50px; 
+a, .content--nav-menu-menu-option {
+    text-decoration: none;
+    color: black;
 }
 
-.content--sections-works {
-  display: inline-block;
-  margin-left: 15%;
-}
-
-.content--sections-works a:hover {
-	color: #008290;
-	padding-left: 3px;
-}
-
-.content--sections-works-img {
-  border: 1px solid #008290;
-  border-radius: 50%;
-  margin-left: 100px;
-  height: 300px;
-  width: 300px;
-}
-
-.content--sections-works-title{
-  font-family: 'Sacramento', cursive;
-  font-size: 45px;
-  margin-left: 195px; 
-}
-
-.content--sections-git-hub {
-  display: inline-block;
-}
-
-.content--sections-git-hub a:hover {
-	color: #008290;
-	padding-left: 3px;
-}
-.content--sections-git-hub-img {
-  border: 1px solid #008290;
-  border-radius: 50%;
-  margin-left: 100px;
-  height: 300px;
-  width: 300px;
-}
-
-.content--sections-git-hub-title {
-  font-family: 'Sacramento', cursive;
-  font-size: 45px;
-  margin-left: 195px; 
+.content--nav-menu-menu-option a:hover {
+  padding: 1%;
+  background-color: #fbb500;
 }
