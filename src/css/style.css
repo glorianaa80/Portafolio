@@ -211,16 +211,54 @@ a, .content--nav-menu-menu-option {
   margin: 0;
   text-align: center; }
 
-.works--img::-webkit-scrollbar {
-  width: 7px; }
-
-.works--img::-webkit-scrollbar-thumb {
-  background-color: white;
-  border-radius: 5px; }
-
 .works-info {
   margin: 0 auto;
   width: 960px; }
+
+.works--info-list {
+  list-style: none; }
+
+.works--info-list-item {
+  background-color: #008290;
+  display: inline-block;
+  height: 300px;
+  margin-right: 5%;
+  width: 30%; }
+
+.works--info-list-item-yellow {
+  background-color: #fbb500;
+  display: inline-block;
+  height: 300px;
+  margin-right: 5%;
+  width: 30%; }
+
+.works--info-list-item-img {
+  padding-left: 25%;
+  padding-top: 10%;
+  width: 40%; }
+
+.works--info-list-item-img-yellow {
+  padding-left: 25%;
+  padding-top: 10%;
+  width: 35%; }
+
+.works--info-list-item-texto-yellow {
+  background-color: #008290;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 10%;
+  padding: 10%; }
+
+.works--info-list-item-texto {
+  background-color: #fbb500;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 10%;
+  padding: 10%; }
+
+.works--info-list-item-link-img {
+  width: 10%; }
+
+.works--info-list-item-link {
+  padding-left: 25%; }
 
 .git-hub {
   background-color: #147587;
