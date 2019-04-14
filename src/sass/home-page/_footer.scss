@@ -1,17 +1,16 @@
 .footer {
   border-top: 10px solid #fbb500; 
-  padding-top: 50px;
   margin: 0;
+  padding-top: 50px;
 }
 
 .footer--content {
   margin: 0;
   padding-bottom: 30px;
-
 }
 
 .footer--contact-info {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 20px 30px;
@@ -20,13 +19,13 @@
 
 .footer--social {
   display: inline;
-  margin-right: 200px;
   margin-left: 44%;
+  margin-right: 200px;
 }
 
 .footer--social-media {
-    width: 50px;
   padding-bottom: 50px;
+  width: 50px;
 }
 
 .footer--social-media + .footer--social-media {

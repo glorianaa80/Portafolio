@@ -1,5 +1,11 @@
+.img-size {
+  width: 33%;
+  padding-top: 6%;
+  padding-left: 36%;
+}
+
 .works--title {
-  font-family:  'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 100px;
   margin: 0;
   text-align: center;
@@ -19,13 +25,8 @@
   display: inline-block;
   margin-top: 5%; 
   margin-right: 5%;
+  padding-bottom: 2%;
   width: 30%;
-}
-
-.img-size {
-  width: 33%;
-  padding-top: 6%;
-  padding-left: 36%;
 }
 
 .works--info-list-item-img{
@@ -36,14 +37,15 @@
 
 .works--info-list-item-texto {
   background-color: #fbb500;
-  font-family: 'Libre Franklin', sans-serif;
-  margin:10%;
+  font-family: "Libre Franklin", sans-serif;
+  margin: 10%;
   padding: 10%;
 }
 
-.works--info-list-item-link-img{
+.works--info-list-item-link-img {
   width: 10%;
 }
-.works--info-list-item-link{
+
+.works--info-list-item-link {
   padding-left: 25%;
 }
