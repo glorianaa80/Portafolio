@@ -16,35 +16,22 @@
 
 .works--info-list-item{
   background-color: #008290; 
-  display: inline-block; 
-  height: 300px;
+  display: inline-block;
+  margin-top: 5%; 
   margin-right: 5%;
   width: 30%;
 }
-.works--info-list-item-yellow{
-  background-color: #fbb500;
-  display: inline-block; 
-  height: 300px;
-  margin-right: 5%;
-  width: 30%;
+
+.img-size {
+  width: 33%;
+  padding-top: 6%;
+  padding-left: 36%;
 }
+
 .works--info-list-item-img{
   padding-left: 25%;
   padding-top: 10%;
   width: 40%;
-}
-
-.works--info-list-item-img-yellow{
-  padding-left: 25%;
-  padding-top: 10%;
-  width: 35%;
-}
-
-.works--info-list-item-texto-yellow{
-  background-color: #008290;
-  font-family: 'Libre Franklin', sans-serif;
-  margin:10%;
-  padding: 10%;
 }
 
 .works--info-list-item-texto {

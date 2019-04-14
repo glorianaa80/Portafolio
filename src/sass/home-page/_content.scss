@@ -39,6 +39,7 @@
   display: block; 
   font-family: 'Libre Franklin', sans-serif;
   padding: 3%;
+  transition: 2s;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -49,6 +50,7 @@ a, .content--nav-menu-menu-option {
 }
 
 .content--nav-menu-menu-option a:hover {
-  padding: 1%;
   background-color: #fbb500;
+  padding: 1%;
+  transition: 2s;
 }

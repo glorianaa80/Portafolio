@@ -1,32 +1,51 @@
-.git-hub{
-  background-color: #008290;
-  width: 45%;
-  height: 1200px;
+.git-hub--info {
+  font-size: 18px;
+  margin: 0 auto;
+  width: 960px;
 }
-  
-.git-hub--title{
-  font-family:  'Sacramento', cursive;
+
+.git-hub--title {
+  color: #008290;
+  font-family:  "Sacramento", cursive;
   font-size: 100px;
   margin: 0;
-  padding-left: 220px;
-  padding-top: 400px;
+  padding: 0;
+  text-align: center;
 }
   
-.git-hub--info{
-  float: right;
-  height: 1180px;
-  margin-top: -1180px;
-  margin-right: 50px;
-  overflow: scroll;
+.git-hub--info-content {
+  background-color: #fbb500;
+  border-radius: 17px;
   width: 50%;
 }
-  
-.git-hub--info::-webkit-scrollbar{
-  width: 7px;
+
+.pdnT{
+  padding-left: 5%;
+  padding-top: 5%;
 }
-  
-.git-hub--info::-webkit-scrollbar-thumb{
-	background-color:white; 
-	border-radius: 5px;
+
+.pdnL {
+  padding-left: 5%;
+  padding-top: 1%;
 }
-  
+
+
+.pdnB {
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.git-hub--info-activities:first-child {
+  padding-top: 5%,
+}
+
+.git-hub--info-activities {
+  font-family: "Libre Franklin", sans-serif; 
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.git-hub--info-activities:last-child {
+  padding-bottom: 5%;
+}
