@@ -65,12 +65,12 @@ fetch ('https://api.github.com/users/glorianaa80/events')
 
     type3.innerHTML = `Event: ${data[2].type}`;
     name3.innerHTML = `Repository Name: ${data[2].repo.name}`;
-    commit3.innerHTML =`Commit: ${data[2].payload.commits[0].message}` ;
+    // commit3.innerHTML =`Commit: ${data[2].payload.commits[0].message}` ;
     date3.innerHTML = `Date: ${data[2].created_at}`;
 
     type4.innerHTML = `Event: ${data[3].type}`;
     name4.innerHTML = `Repository Name: ${data[3].repo.name}`;
-    commit4.innerHTML =`Commit: ${data[3].payload.commits[0].message}` ;
+    // commit4.innerHTML =`Commit: ${data[3].payload.commits[0].message}` ;
     date4.innerHTML = `Date: ${data[3].created_at}`;
 
     type5.innerHTML = `Event: ${data[4].type}`;
