@@ -1,41 +1,62 @@
-.works{
-  background-color: #008290;
-  height: 1200px;
-  padding: 0;
-  margin: 0;
-  width: 50%;
-}
-
-.works--title{
+.works--title {
   font-family:  'Sacramento', cursive;
   font-size: 100px;
   margin: 0;
-  padding-left: 260px;
-  padding-top: 400px;
+  text-align: center;
 }
 
-.works--img{
-  float: right;
-  height: 1150px;
-  margin-top: -1180px;
-  overflow: scroll;
-  width: 45%;
+.works-info{
+  margin: 0 auto;
+  width: 960px;
 }
 
-.works--img::-webkit-scrollbar{
-  width: 7px;
+.works--info-list{
+  list-style: none;
 }
 
-.works--img::-webkit-scrollbar-thumb{
-  background-color:white;
-  border-radius: 5px;
-}
-
-.works--img-psd{
-  border: 2px solid #6ca500;
-	border-radius: 50%;
+.works--info-list-item{
+  background-color: #008290; 
+  display: inline-block; 
   height: 300px;
-  margin-left: 200px;
-  margin-top: 50px;
-	width: 300px;
+  margin-right: 5%;
+  width: 30%;
+}
+.works--info-list-item-yellow{
+  background-color: #fbb500;
+  display: inline-block; 
+  height: 300px;
+  margin-right: 5%;
+  width: 30%;
+}
+.works--info-list-item-img{
+  padding-left: 25%;
+  padding-top: 10%;
+  width: 40%;
+}
+
+.works--info-list-item-img-yellow{
+  padding-left: 25%;
+  padding-top: 10%;
+  width: 35%;
+}
+
+.works--info-list-item-texto-yellow{
+  background-color: #008290;
+  font-family: 'Libre Franklin', sans-serif;
+  margin:10%;
+  padding: 10%;
+}
+
+.works--info-list-item-texto {
+  background-color: #fbb500;
+  font-family: 'Libre Franklin', sans-serif;
+  margin:10%;
+  padding: 10%;
+}
+
+.works--info-list-item-link-img{
+  width: 10%;
+}
+.works--info-list-item-link{
+  padding-left: 25%;
 }

@@ -1,52 +1,75 @@
-.about-me {
-  background-color: #008290;
-  width: 45%;
-  height: 1200px;
-}
-
 .about-me--title {
-  font-family:  'Sacramento', cursive;
+  color: #008290;
+  font-family: 'Sacramento', cursive;
   font-size: 100px;
-	margin: 0;
-  padding-left: 19%;
-  padding-top: 64%;
+  padding: 3%;
+  margin: 0;
+  text-align: center
 }
 
 .about-me--img {
-	border-radius: 50%;
-	height: 450px;
-  width: 450px;
-  margin-left: 200px;
-  margin-top:30px; 
-  margin-bottom: 30px;
+  height: 450px;
+  margin: 0 auto;
 }
 
 .about-me--sub-title {
+  color: #008290;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 80px;
   font-weight: bold;
-  margin: 0;
+  margin-bottom: 3%;
+  margin-top:10%;
 }
-
 .about-me--info {
-  float: right;
   font-size: 18px;
-  height: 1180px;
-	margin-top: -1180px;
-  margin-right: 2%;
-  overflow: scroll;
-  width: 50%;
+  margin: 0 auto;
+  width: 960px;
+}
+.about-me--info-text {
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 2px;
+  padding-top: 1%;
 }
 
-.about-me--secction {
-  border: 2px solid #6ca500;
-  margin-top: 7%;
-  margin-left:28%; 
-  width: 50%;
+.about-me--secction {  
+  display: inline-block;
+  margin-left: 9%; 
+  margin-top: 2%;
+  margin-bottom: 10%;
+  width: 40%;
+}
+
+.about-me--secction:first-child {
+  margin-left: 0;
+}
+
+
+.dcolora {
+  border:2px solid #008290;
+}
+
+.dcolora-title{
+  color: #008290;
+}
+
+.dcolora-ul{
+  background-color: #008290;
+}
+
+.dcoloram {
+  border:2px solid #fbb500;
+}
+
+.dcoloram-title{
+  color: #fbb500;
+}
+
+.dcoloram-ul{
+  background-color: #fbb500;
 }
 
 .about-me--secction-title {
-  color: #6ca500;
+ 
   font-family: 'Libre Franklin', sans-serif;
   font-size: 25px;
   padding:0;
@@ -55,7 +78,6 @@
 
 .about-me--secction-list {
   padding-left: 11%;
-  background-color: #6ca500;
   font-family: 'Libre Franklin', sans-serif;
   list-style:none;
   margin: 0;
@@ -66,22 +88,14 @@
   margin-top: 10%;
   padding: 0;
   width: 30%;
+  height: 80px;
+}
+
+.csize{
+  height: 80px;
 }
 
 .about-me--secction-list-option{
   padding-bottom: 10px;
   padding-top: 10px;
-}
-
-.about-me--info::-webkit-scrollbar {
-  width: 7px;
-}
-
-.about-me--info::-webkit-scrollbar-thumb {
-  background-color:white;
-  border-radius: 5px;
-}
-
-.about-me--info-text {
-  font-family: 'Libre Franklin', sans-serif;
 }
