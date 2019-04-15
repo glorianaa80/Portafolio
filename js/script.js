@@ -55,52 +55,42 @@ fetch ('https://api.github.com/users/glorianaa80/events')
   function activity(data){
     type1.innerHTML = `Event: ${data[0].type}`;
     name1.innerHTML = `Repository Name: ${data[0].repo.name}`;
-    // commit1.innerHTML =`Commit: ${data[0].payload.commits[0].message}` ;
     date1.innerHTML = `Date: ${data[0].created_at}`;
 
     type2.innerHTML = `Event: ${data[1].type}`;
     name2.innerHTML = `Repository Name: ${data[1].repo.name}`;
-    // commit2.innerHTML =`Commit: ${data[1].payload.commits[0].message}` ;
     date2.innerHTML = `Date: ${data[1].created_at}`;
 
     type3.innerHTML = `Event: ${data[2].type}`;
     name3.innerHTML = `Repository Name: ${data[2].repo.name}`;
-    // commit3.innerHTML =`Commit: ${data[2].payload.commits[0].message}` ;
     date3.innerHTML = `Date: ${data[2].created_at}`;
 
     type4.innerHTML = `Event: ${data[3].type}`;
     name4.innerHTML = `Repository Name: ${data[3].repo.name}`;
-    // commit4.innerHTML =`Commit: ${data[3].payload.commits[0].message}` ;
     date4.innerHTML = `Date: ${data[3].created_at}`;
 
     type5.innerHTML = `Event: ${data[4].type}`;
     name5.innerHTML = `Repository Name: ${data[4].repo.name}`;
-    // commit5.innerHTML =`Commit: ${data[4].payload.commits[0].message}` ;
     date5.innerHTML = `Date: ${data[4].created_at}`;
 
     type6.innerHTML = `Event: ${data[5].type}`;
     name6.innerHTML = `Repository Name: ${data[5].repo.name}`;
-    // commit6.innerHTML =`Commit: ${data[5].payload.commits[0].message}` ;
     date6.innerHTML = `Date: ${data[5].created_at}`;
 
     type7.innerHTML = `Event: ${data[6].type}`;
     name7.innerHTML = `Repository Name: ${data[6].repo.name}`;
-    // commit7.innerHTML =`Commit: ${data[6].payload.commits[0].message}` ;
     date7.innerHTML = `Date: ${data[6].created_at}`;
 
     type8.innerHTML = `Event: ${data[7].type}`;
     name8.innerHTML = `Repository Name: ${data[7].repo.name}`;
-    // commit8.innerHTML =`Commit: ${data[7].payload.commits[0].message}` ;
     date8.innerHTML = `Date: ${data[7].created_at}`;
 
     type9.innerHTML = `Event: ${data[8].type}`;
     name9.innerHTML = `Repository Name: ${data[8].repo.name}`;
-    // commit9.innerHTML =`Commit: ${data[8].payload.commits[0].message}` ;
     date9.innerHTML = `Date: ${data[8].created_at}`;
     
     type10.innerHTML = `Event: ${data[9].type}`;
     name10.innerHTML = `Repository Name: ${data[9].repo.name}`;
-    // commit10.innerHTML =`Commit: ${data[9].payload.commits[0].message}` ;
     date10.innerHTML = `Date: ${data[9].created_at}`;
     
     console.log(data)
