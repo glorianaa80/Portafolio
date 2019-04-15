@@ -202,6 +202,7 @@ a, .content--nav-menu-menu-option {
   height: 80px; }
 
 .about-me--secction-list-option {
+  letter-spacing: 2px;
   padding-bottom: 10px;
   padding-top: 10px; }
 
@@ -221,15 +222,8 @@ a, .content--nav-menu-menu-option {
 .works--info-list-item {
   background-color: #008290;
   display: inline-block;
-  height: 300px;
   margin-right: 5%;
-  width: 30%; }
-
-.works--info-list-item-yellow {
-  background-color: #fbb500;
-  display: inline-block;
-  height: 300px;
-  margin-right: 5%;
+  padding-bottom: 1%;
   width: 30%; }
 
 .works--info-list-item-img {
@@ -237,16 +231,10 @@ a, .content--nav-menu-menu-option {
   padding-top: 10%;
   width: 40%; }
 
-.works--info-list-item-img-yellow {
-  padding-left: 25%;
-  padding-top: 10%;
+.lsize {
+  padding-left: 30%;
+  padding-top: 5%;
   width: 35%; }
-
-.works--info-list-item-texto-yellow {
-  background-color: #008290;
-  font-family: 'Libre Franklin', sans-serif;
-  margin: 10%;
-  padding: 10%; }
 
 .works--info-list-item-texto {
   background-color: #fbb500;
@@ -258,7 +246,8 @@ a, .content--nav-menu-menu-option {
   width: 10%; }
 
 .works--info-list-item-link {
-  padding-left: 25%; }
+  padding-left: 25%;
+  margin-bottom: 10%; }
 
 .git-hub {
   background-color: #147587;
@@ -284,7 +273,7 @@ a, .content--nav-menu-menu-option {
   width: 7px; }
 
 .git-hub--info::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: red;
   border-radius: 5px; }
 
 body {
