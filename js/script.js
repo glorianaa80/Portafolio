@@ -70,22 +70,22 @@ fetch ('https://api.github.com/users/glorianaa80/events')
 
     type4.innerHTML = `Event: ${data[3].type}`;
     name4.innerHTML = `Repository Name: ${data[3].repo.name}`;
-    // commit4.innerHTML =`Commit: ${data[3].payload.commits[0].message}` ;
+    commit4.innerHTML =`Commit: ${data[3].payload.commits[0].message}` ;
     date4.innerHTML = `Date: ${data[3].created_at}`;
 
     type5.innerHTML = `Event: ${data[4].type}`;
     name5.innerHTML = `Repository Name: ${data[4].repo.name}`;
-    // commit5.innerHTML =`Commit: ${data[4].payload.commits[0].message}` ;
+      commit5.innerHTML =`Commit: ${data[4].payload.commits[0].message}` ;
     date5.innerHTML = `Date: ${data[4].created_at}`;
 
     type6.innerHTML = `Event: ${data[5].type}`;
     name6.innerHTML = `Repository Name: ${data[5].repo.name}`;
-    commit6.innerHTML =`Commit: ${data[5].payload.commits[0].message}` ;
+    // commit6.innerHTML =`Commit: ${data[5].payload.commits[0].message}` ;
     date6.innerHTML = `Date: ${data[5].created_at}`;
 
     type7.innerHTML = `Event: ${data[6].type}`;
     name7.innerHTML = `Repository Name: ${data[6].repo.name}`;
-    commit7.innerHTML =`Commit: ${data[6].payload.commits[0].message}` ;
+    // commit7.innerHTML =`Commit: ${data[6].payload.commits[0].message}` ;
     date7.innerHTML = `Date: ${data[6].created_at}`;
 
     type8.innerHTML = `Event: ${data[7].type}`;
