@@ -1,0 +1,62 @@
+.header {
+  width: 100%;
+}
+
+.header-secction {
+  border-bottom: 10px solid #fbb500;
+}
+
+.header--nav-logo {
+  text-align: center;
+  display: inline;
+}
+
+a, .header--nav-menu-menu-option {
+  color: black;
+  text-decoration: none;
+  transition: 2s;
+}
+
+.header--nav-logo-img {
+  margin-left: 46%;
+  margin-top: 2%;    
+  width: 10%;
+}
+
+.header--nav-menu {
+  text-align: center;
+  width: 100%;
+}
+
+.header--nav-menu-menu {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.header--nav-menu-menu {
+  list-style: none;
+}
+
+.header--nav-menu-menu-option { 
+  color: black;
+  display: inline-block; 
+  font-family: 'Libre Franklin', sans-serif;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 2s;
+  width: 15%;
+}
+
+.header--nav-menu-menu-option + .header--nav-menu-menu-option {
+  padding-left: 3%;
+}
+
+.header--nav-menu-menu-option a:hover {
+  background-color: #fbb500;
+  display: block; 
+  padding: 3%;
+  transition: 2s;
+}

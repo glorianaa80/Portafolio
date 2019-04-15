@@ -1,0 +1,56 @@
+.content {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.content--title {
+  font-family: "Sacramento", cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+.content--subTitle {
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.content-img {
+  padding-top: 5%;
+}
+.content--nav-menu {
+  margin-top: 5.7%;
+  text-align: center;
+  width: 100%;
+}
+
+.content--nav-menu-menu {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+.content--nav-menu-menu {
+  list-style: none;
+}
+
+.content--nav-menu-menu-option { 
+  color: black;
+  display: block; 
+  font-family: "Libre Franklin", sans-serif;
+  padding: 3%;
+  transition: 2s;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a, .content--nav-menu-menu-option {
+  text-decoration: none;
+  color: black;
+}
+
+.content--nav-menu-menu-option a:hover {
+  background-color: #fbb500;
+  padding: 1%;
+  transition: 2s;
+}
