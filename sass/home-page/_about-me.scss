@@ -4,7 +4,15 @@
   font-size: 50px;
   margin: 0;
   padding: 3%;
-  text-align: center
+  text-align: center;
+
+  @media (min-width: 768px){
+    font-size: 70px;
+  }  
+  @media (min-width: 1440px){
+    font-size: 90px;
+    padding-bottom: 5%;
+  }
 }
 
 .about-me--img {
@@ -18,15 +26,39 @@
   font-weight: bold;
   margin: 1%;
   padding: 3%;
+
+  @media (min-width: 768px){
+    font-size: 55px;
+  }
+  @media (min-width: 1440px){
+    font-size: 70px;
+  }
 }
+
 .about-me--info {
   font-size: 1rem;
   width: 100%;
+  @media (min-width: 768px){
+    font-size: 2rem;
+  }
 }
+
 .about-me--info-text {
   font-family: "Libre Franklin", sans-serif;
   letter-spacing: 2px;
   padding:  2% 10% 2% 10%;
+  @media (min-width: 1440px){
+    display: inline-block;
+    padding:  2% 0 2% 2%;
+    vertical-align: top;
+    width: 45%;
+  }
+}
+
+.wapper-text {
+  @media (min-width: 1440px){
+    padding-left: 10%;
+  }
 }
 
 .about-me--secction {  
@@ -35,6 +67,9 @@
   margin-top: 2%;
   margin-bottom: 10%;
   width: 80%;
+  @media (min-width: 1440px){
+    width: 35%;
+  }
 }
 
 .about-me--secction:first-child {
@@ -46,6 +81,9 @@
   font-size: 25px;
   padding: 0;
   text-align: center;
+  @media (min-width: 768px){
+    font-size: 40px;
+  }
 }
 
 .about-me--secction-list {
@@ -97,3 +135,9 @@
   background-color: #fbb500;
 }
 
+.wapper-img {
+  @media (min-width: 1440px){
+    height: 600px;
+    overflow: hidden;
+  }
+}

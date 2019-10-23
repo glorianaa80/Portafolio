@@ -57,6 +57,12 @@ a, .content--nav-menu-menu-option {
   transition: 2s;
 }
 
+a, .header--nav-menu-menu-option {
+  color: black;
+  text-decoration: none;
+  transition: 2s;
+}
+
 .header {
   width: 100%;
 }
@@ -65,22 +71,28 @@ a, .content--nav-menu-menu-option {
   border-bottom: 10px solid #fbb500;
 }
 
-a, .header--nav-menu-menu-option {
-  color: black;
-  text-decoration: none;
-  transition: 2s;
-}
-
 .header--nav-logo-img {
   margin-left: 40%;
   margin-top: 2%;
   width: 25%;
+}
+@media (min-width: 1440px) {
+  .header--nav-logo-img {
+    width: 14%;
+  }
 }
 
 .header--nav-menu {
   margin-left: 26%;
   text-align: center;
   width: 50%;
+}
+@media (min-width: 768px) {
+  .header--nav-menu {
+    margin-left: 8%;
+    text-align: center;
+    width: 80%;
+  }
 }
 
 .header--nav-menu-menu {
@@ -102,6 +114,25 @@ a, .header--nav-menu-menu-option {
   text-transform: uppercase;
   text-decoration: none;
   transition: 2s;
+}
+@media (min-width: 768px) {
+  .header--nav-menu-menu-option {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-top: 10%;
+  }
+}
+@media (min-width: 1440px) {
+  .header--nav-menu-menu-option {
+    font-size: 2rem;
+    padding-bottom: 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .header--nav-menu-menu-option + .header--nav-menu-menu-option {
+    padding-left: 50%;
+  }
 }
 
 .header--nav-menu-menu-option a:hover {
@@ -129,6 +160,11 @@ a, .header--nav-menu-menu-option {
   padding: 20px 30px;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .footer--contact-info {
+    font-size: 1.5rem;
+  }
+}
 
 .footer--social {
   display: inline;
@@ -153,6 +189,17 @@ a, .header--nav-menu-menu-option {
   padding: 3%;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .about-me--title {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1440px) {
+  .about-me--title {
+    font-size: 90px;
+    padding-bottom: 5%;
+  }
+}
 
 .about-me--img {
   width: 100%;
@@ -166,16 +213,45 @@ a, .header--nav-menu-menu-option {
   margin: 1%;
   padding: 3%;
 }
+@media (min-width: 768px) {
+  .about-me--sub-title {
+    font-size: 55px;
+  }
+}
+@media (min-width: 1440px) {
+  .about-me--sub-title {
+    font-size: 70px;
+  }
+}
 
 .about-me--info {
   font-size: 1rem;
   width: 100%;
+}
+@media (min-width: 768px) {
+  .about-me--info {
+    font-size: 2rem;
+  }
 }
 
 .about-me--info-text {
   font-family: "Libre Franklin", sans-serif;
   letter-spacing: 2px;
   padding: 2% 10% 2% 10%;
+}
+@media (min-width: 1440px) {
+  .about-me--info-text {
+    display: inline-block;
+    padding: 2% 0 2% 2%;
+    vertical-align: top;
+    width: 45%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wapper-text {
+    padding-left: 10%;
+  }
 }
 
 .about-me--secction {
@@ -184,6 +260,11 @@ a, .header--nav-menu-menu-option {
   margin-top: 2%;
   margin-bottom: 10%;
   width: 80%;
+}
+@media (min-width: 1440px) {
+  .about-me--secction {
+    width: 35%;
+  }
 }
 
 .about-me--secction:first-child {
@@ -195,6 +276,11 @@ a, .header--nav-menu-menu-option {
   font-size: 25px;
   padding: 0;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .about-me--secction-title {
+    font-size: 40px;
+  }
 }
 
 .about-me--secction-list {
@@ -245,12 +331,24 @@ a, .header--nav-menu-menu-option {
   background-color: #fbb500;
 }
 
+@media (min-width: 1440px) {
+  .wapper-img {
+    height: 600px;
+    overflow: hidden;
+  }
+}
+
 .works--title {
   color: #008290;
   font-family: "Sacramento", cursive;
   font-size: 50px;
   margin: 0;
   text-align: center;
+}
+@media (min-width: 1440px) {
+  .works--title {
+    font-size: 90px;
+  }
 }
 
 .works-info {
@@ -271,6 +369,12 @@ a, .header--nav-menu-menu-option {
   padding-bottom: 2%;
   width: 90%;
 }
+@media (min-width: 1440px) {
+  .works--info-list-item {
+    vertical-align: top;
+    width: 40%;
+  }
+}
 
 .works--info-list-item-img {
   padding-top: 10%;
@@ -281,17 +385,42 @@ a, .header--nav-menu-menu-option {
   width: 60%;
   padding-top: 5.5%;
 }
+@media (min-width: 768px) {
+  .img-size {
+    width: 40%;
+  }
+}
 
 .works--info-list-item-texto {
   background-color: #fbb500;
   font-family: "Libre Franklin", sans-serif;
   font-size: 1rem;
+  text-align: left;
   margin: 10%;
   padding: 10%;
+}
+@media (min-width: 768px) {
+  .works--info-list-item-texto {
+    font-size: 1.5rem;
+  }
 }
 
 .works--info-list-item-link-img {
   width: 10%;
+}
+@media (min-width: 768px) {
+  .works--info-list-item-link-img {
+    width: 8%;
+  }
+}
+
+.works--info-list-item-link + .works--info-list-item-link {
+  padding-left: 5%;
+}
+@media (min-width: 768px) {
+  .works--info-list-item-link + .works--info-list-item-link {
+    padding-left: 20%;
+  }
 }
 
 body {

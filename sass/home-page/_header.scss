@@ -1,3 +1,9 @@
+a, .header--nav-menu-menu-option {
+  color: black;
+  text-decoration: none;
+  transition: 2s;
+}
+
 .header {
   width: 100%;
 }
@@ -6,22 +12,26 @@
   border-bottom: 10px solid #fbb500;
 }
 
-a, .header--nav-menu-menu-option {
-  color: black;
-  text-decoration: none;
-  transition: 2s;
-}
-
 .header--nav-logo-img {
   margin-left: 40%;
-  margin-top: 2%;    
+  margin-top: 2%;
   width: 25%;
+
+  @media (min-width: 1440px){
+    width: 14%;
+  }
 }
 
 .header--nav-menu {
   margin-left: 26%;
   text-align: center;
   width: 50%;
+
+  @media (min-width: 768px){
+    margin-left: 8%;
+    text-align: center;
+    width: 80%;
+  }
 }
 
 .header--nav-menu-menu {
@@ -36,18 +46,32 @@ a, .header--nav-menu-menu-option {
 
 .header--nav-menu-menu-option { 
   color: black;
-  display: block; 
+  display: block;
   font-family: 'Libre Franklin', sans-serif;
   padding-top: 15%;
   padding-bottom: 10%;
   text-transform: uppercase;
   text-decoration: none;
   transition: 2s;
+
+  @media (min-width: 768px){
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-top: 10%;
+  }
+  @media (min-width: 1440px){
+    font-size: 2rem;
+    padding-bottom: 5%;
+  }
 }
 
-// .header--nav-menu-menu-option + .header--nav-menu-menu-option {
-//   padding-left: 3%;
-// }
+
+.header--nav-menu-menu-option + .header--nav-menu-menu-option {
+  @media (min-width: 768px){
+    padding-left: 50%;
+  } 
+}
+
 
 .header--nav-menu-menu-option a:hover {
   background-color: #fbb500;
