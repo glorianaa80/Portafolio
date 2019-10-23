@@ -1,7 +1,7 @@
 .about-me--title {
   color: #008290;
   font-family: 'Sacramento', cursive;
-  font-size: 100px;
+  font-size: 50px;
   margin: 0;
   padding: 3%;
   text-align: center
@@ -14,20 +14,19 @@
 .about-me--sub-title {
   color: #008290;
   font-family: "Libre Franklin", sans-serif;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: bold;
-  margin-bottom: 3%;
-  margin-top: 10%;
+  margin: 1%;
+  padding: 3%;
 }
 .about-me--info {
-  font-size: 18px;
-  margin: 0 auto;
-  width: 960px;
+  font-size: 1rem;
+  width: 100%;
 }
 .about-me--info-text {
   font-family: "Libre Franklin", sans-serif;
   letter-spacing: 2px;
-  padding-top: 1%;
+  padding:  2% 10% 2% 10%;
 }
 
 .about-me--secction {  
@@ -35,7 +34,7 @@
   margin-left: 9%; 
   margin-top: 2%;
   margin-bottom: 10%;
-  width: 40%;
+  width: 80%;
 }
 
 .about-me--secction:first-child {

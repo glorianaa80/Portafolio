@@ -1,228 +1,267 @@
-.header {
-  width: 100%; }
-
-.header-secction {
-  border-bottom: 10px solid #fbb500; }
-
-.header--nav-logo {
-  text-align: center;
-  display: inline; }
-
-a, .header--nav-menu-menu-option {
-  color: black;
-  text-decoration: none;
-  transition: 2s; }
-
-.header--nav-logo-img {
-  margin-left: 46%;
-  margin-top: 2%;
-  width: 10%; }
-
-.header--nav-menu {
-  text-align: center;
-  width: 100%; }
-
-.header--nav-menu-menu {
-  font-size: 25px;
-  margin: 0;
-  padding: 0; }
-
-.header--nav-menu-menu {
-  list-style: none; }
-
-.header--nav-menu-menu-option {
-  color: black;
-  display: inline-block;
-  font-family: 'Libre Franklin', sans-serif;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: 2s;
-  width: 15%; }
-
-.header--nav-menu-menu-option + .header--nav-menu-menu-option {
-  padding-left: 3%; }
-
-.header--nav-menu-menu-option a:hover {
-  background-color: #fbb500;
-  display: block;
-  padding: 3%;
-  transition: 2s; }
-
 .content {
   margin-bottom: 5%;
-  text-align: center; }
+  text-align: center;
+}
 
 .content--title {
   font-family: "Sacramento", cursive;
-  font-size: 70px;
-  text-align: center; }
+  font-size: 6rem;
+  text-align: center;
+}
 
 .content--subTitle {
   font-family: "Sacramento", cursive;
-  font-size: 40px;
-  text-align: center; }
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+}
 
 .content-img {
-  padding-top: 5%; }
+  padding-top: 5%;
+}
 
 .content--nav-menu {
   margin-top: 5.7%;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+}
 
 .content--nav-menu-menu {
   margin: 0;
   padding: 0;
-  font-size: 25px; }
+  font-size: 3rem;
+}
 
 .content--nav-menu-menu {
-  list-style: none; }
+  list-style: none;
+}
 
 .content--nav-menu-menu-option {
   color: black;
   display: block;
   font-family: "Libre Franklin", sans-serif;
-  padding: 3%;
+  padding: 4%;
   transition: 2s;
   text-transform: uppercase;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 a, .content--nav-menu-menu-option {
   text-decoration: none;
-  color: black; }
+  color: black;
+}
 
 .content--nav-menu-menu-option a:hover {
   background-color: #fbb500;
   padding: 1%;
-  transition: 2s; }
+  transition: 2s;
+}
+
+.header {
+  width: 100%;
+}
+
+.header-secction {
+  border-bottom: 10px solid #fbb500;
+}
+
+a, .header--nav-menu-menu-option {
+  color: black;
+  text-decoration: none;
+  transition: 2s;
+}
+
+.header--nav-logo-img {
+  margin-left: 40%;
+  margin-top: 2%;
+  width: 25%;
+}
+
+.header--nav-menu {
+  margin-left: 26%;
+  text-align: center;
+  width: 50%;
+}
+
+.header--nav-menu-menu {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header--nav-menu-menu {
+  list-style: none;
+}
+
+.header--nav-menu-menu-option {
+  color: black;
+  display: block;
+  font-family: "Libre Franklin", sans-serif;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 2s;
+}
+
+.header--nav-menu-menu-option a:hover {
+  background-color: #fbb500;
+  display: block;
+  padding: 3%;
+  transition: 2s;
+}
 
 .footer {
   border-top: 10px solid #fbb500;
   margin: 0;
-  padding-top: 50px; }
+  padding-top: 50px;
+}
 
 .footer--content {
   margin: 0;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+}
 
 .footer--contact-info {
   font-family: "Libre Franklin", sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 20px 30px;
-  text-align: center; }
+  text-align: center;
+}
 
 .footer--social {
   display: inline;
   margin-left: 44%;
-  margin-right: 200px; }
+  margin-right: 200px;
+}
 
 .footer--social-media {
   padding-bottom: 50px;
-  width: 50px; }
+  width: 50px;
+}
 
 .footer--social-media + .footer--social-media {
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 
 .about-me--title {
   color: #008290;
-  font-family: 'Sacramento', cursive;
-  font-size: 100px;
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
   margin: 0;
   padding: 3%;
-  text-align: center; }
+  text-align: center;
+}
 
 .about-me--img {
-  width: 100%; }
+  width: 100%;
+}
 
 .about-me--sub-title {
   color: #008290;
   font-family: "Libre Franklin", sans-serif;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: bold;
-  margin-bottom: 3%;
-  margin-top: 10%; }
+  margin: 1%;
+  padding: 3%;
+}
 
 .about-me--info {
-  font-size: 18px;
-  margin: 0 auto;
-  width: 960px; }
+  font-size: 1rem;
+  width: 100%;
+}
 
 .about-me--info-text {
   font-family: "Libre Franklin", sans-serif;
   letter-spacing: 2px;
-  padding-top: 1%; }
+  padding: 2% 10% 2% 10%;
+}
 
 .about-me--secction {
   display: inline-block;
   margin-left: 9%;
   margin-top: 2%;
   margin-bottom: 10%;
-  width: 40%; }
+  width: 80%;
+}
 
 .about-me--secction:first-child {
-  margin-left: 0; }
+  margin-left: 0;
+}
 
 .about-me--secction-title {
   font-family: "Libre Franklin", sans-serif;
   font-size: 25px;
   padding: 0;
-  text-align: center; }
+  text-align: center;
+}
 
 .about-me--secction-list {
   font-family: "Libre Franklin", sans-serif;
   list-style: none;
   margin: 0;
-  padding-left: 11%; }
+  padding-left: 11%;
+}
 
 .about-me-secction-img {
   height: 80px;
   margin-left: 34%;
   margin-top: 10%;
   padding: 0;
-  width: 30%; }
+  width: 30%;
+}
 
 .about-me--secction-list-option {
   padding-bottom: 10px;
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
 .csize {
-  height: 80px; }
+  height: 80px;
+}
 
 .dcolora {
-  border: 2px solid #008290; }
+  border: 2px solid #008290;
+}
 
 .dcolora-title {
-  color: #008290; }
+  color: #008290;
+}
 
 .dcolora-ul {
-  background-color: #008290; }
+  background-color: #008290;
+}
 
 .dcoloram {
-  border: 2px solid #fbb500; }
+  border: 2px solid #fbb500;
+}
 
 .dcoloram-title {
-  color: #fbb500; }
+  color: #fbb500;
+}
 
 .dcoloram-ul {
-  background-color: #fbb500; }
+  background-color: #fbb500;
+}
 
 .works--title {
+  color: #008290;
   font-family: "Sacramento", cursive;
-  font-size: 100px;
+  font-size: 50px;
   margin: 0;
-  text-align: center; }
+  text-align: center;
+}
 
 .works-info {
-  margin: 0 auto;
-  width: 960px; }
+  text-align: center;
+}
 
 .works--info-list {
   list-style: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .works--info-list-item {
   background-color: #008290;
@@ -230,69 +269,34 @@ a, .content--nav-menu-menu-option {
   margin-bottom: 5%;
   margin-left: 1%;
   padding-bottom: 2%;
-  width: 45%; }
+  width: 90%;
+}
 
 .works--info-list-item-img {
-  padding-left: 25%;
   padding-top: 10%;
-  width: 40%; }
+  width: 40%;
+}
 
 .img-size {
   width: 33%;
   padding-top: 5.5%;
-  padding-left: 36%; }
+}
 
 .works--info-list-item-texto {
   background-color: #fbb500;
   font-family: "Libre Franklin", sans-serif;
+  font-size: 1rem;
   margin: 10%;
-  padding: 10%; }
+  padding: 10%;
+}
 
 .works--info-list-item-link-img {
-  width: 10%; }
-
-.works--info-list-item-link {
-  padding-left: 25%; }
-
-.git-hub--info {
-  font-size: 18px;
-  margin: 0 auto;
-  width: 960px; }
-
-.git-hub--title {
-  color: #008290;
-  font-family: "Sacramento", cursive;
-  font-size: 100px;
-  margin: 0;
-  padding: 0;
-  text-align: center; }
-
-.git-hub--info-content {
-  background-color: #fbb500;
-  border-radius: 17px;
-  font-family: "Libre Franklin", sans-serif;
-  text-align: center;
-  width: 100%; }
-
-.pdnT {
-  font-family: "Libre Franklin", sans-serif;
-  padding-left: 5%;
-  padding-top: 5%; }
-
-.pdnL {
-  font-family: "Libre Franklin", sans-serif;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 1%; }
-
-.pdnB {
-  font-family: "Libre Franklin", sans-serif;
-  padding-bottom: 5%;
-  padding-left: 5%;
-  padding-top: 2%; }
+  width: 10%;
+}
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
