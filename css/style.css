@@ -331,6 +331,12 @@ a, .header--nav-menu-menu-option {
   background-color: #fbb500;
 }
 
+@media (min-width: 768px) {
+  .wapper-img {
+    height: 300px;
+    overflow: hidden;
+  }
+}
 @media (min-width: 1440px) {
   .wapper-img {
     height: 600px;
